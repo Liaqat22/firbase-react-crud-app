@@ -1,0 +1,21 @@
+*{
+  margin : 0rem;
+  padding : 0rem;
+  box-sizing: border-box;
+}
+/* html{
+  font-size: 63%;
+} */
+.navbar-nav{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: auto;
+}
+.nav-item{
+  padding: 0px 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 7px;
+}
