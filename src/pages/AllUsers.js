@@ -36,7 +36,7 @@ function AllUsers() {
       <div className="container-fluid ">
         <div className='row d-flex justify-content-center'>
           <div className='col-md-11'>
-            <div className='mb-2' style={{textAlign:"end" , color : "white"}}>
+            <div className='mb-2 p-2' style={{textAlign:"end" , color : "white"}}>
               <NavLink to= "/list" className="btn font2rem" style={{ backgroundColor : "#00b4d8"}}>
                 <b style={{ color : "white"}}>+ Add Data</b>
                 </NavLink>
