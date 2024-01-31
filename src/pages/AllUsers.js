@@ -30,11 +30,10 @@ function AllUsers() {
   }
   return (
     <>
-      <h1>All users</h1>
       {
 
       }
-      <div className="container-fluid p-3">
+      <div className="container-fluid ">
         <div className='row d-flex justify-content-center'>
           <div className='col-md-11'>
             <div className='mb-2' style={{textAlign:"end" , color : "white"}}>
