@@ -1,6 +1,6 @@
 ## firebase Auth methods
 ### import {  } from 'firebase/auth'
-0 - getAuth : to get access of whole Authentication methods without this we will not able to use all methods given below
+0 - getAuth : to get access of whole Authentication methods without this we will not able to use all methods given below.\
 1 - createUserWithEmailAndPassword : Signup / Register with email and password.\
 2 - signInWithEmailAndPassword : SignIn / Login with email and password.\
 3 - signInWithPopup : SignIn / Login with google.\
