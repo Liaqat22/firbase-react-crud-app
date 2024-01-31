@@ -58,7 +58,7 @@ if (fireAuth.checkAuth) {
        <div className="mb-3">
        <input className="form-control" type="file" id="formFile" onChange={(e) => setUserData({ ...userData, photo: e.target.files[0] })} />
 {userData.photo? (
-  <img src={URL.createObjectURL(userData.photo)} alt=''style={{ borderRadius: 'unset',    objectFit: "contain" }} className='profile-img mt-3'/>
+  <img src={URL.createObjectURL(userData.photo)} alt=''style={{ borderRadius: 'unset',    objectFit: "unset" }} className='profile-img mt-3'/>
 
 ):("")}
 </div>
