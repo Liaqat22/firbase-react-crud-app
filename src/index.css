@@ -16,6 +16,10 @@ font-family: 'Poppins', sans-serif;
 html{
 font-size: 63%;
 }
+.container-fluid{
+  margin: 2rem 0rem;
+  padding: 0rem 3rem;
+}
 .navbar{
  padding:  1rem 2rem;
 }
